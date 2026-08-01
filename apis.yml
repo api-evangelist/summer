@@ -1,8 +1,24 @@
 aid: summer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/summer.png
 name: Summer
-description: Summer is a company surfaced as a portfolio company of general-catalyst, lightspeed-venture-partners,
-  qed-investors and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: Summer (Summer, PBC) is a financial wellness platform that helps individuals, employers,
+  and government organizations manage student loan debt and education expenses. Summer connects members
+  with 150+ federal and state loan programs to lower monthly payments, pursue loan forgiveness (including
+  Public Service Loan Forgiveness), and build tax-advantaged education savings. It is delivered as an
+  employee benefit and through public programs, offering debt optimization, college cost planning,
+  tuition assistance, tax-favorable direct student-loan contributions, and retirement matching of loan
+  payments. Summer reports over $2B in savings delivered and a 97% member satisfaction rate.
 url: https://raw.githubusercontent.com/api-evangelist/summer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Wellness
+- Student Loans
+- Employee Benefits
+- Fintech
+- Education Finance
+- Debt Management
+- Retirement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +48,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.meetsummer.org/
+  url: https://www.meetsummer.com/
+- type: Blog
+  url: https://www.meetsummer.com/blog
+- type: Support
+  url: https://www.meetsummer.com/contact
+- type: Login
+  url: https://app.meetsummer.org/login
+- type: TermsOfService
+  url: https://www.meetsummer.com/utility/terms
+- type: PrivacyPolicy
+  url: https://www.meetsummer.com/utility/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
